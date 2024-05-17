@@ -1,6 +1,6 @@
 /*  
  * 名称   : heat abstractor
- * 功能   : 热敏传感器控制一个四位数管和一个电机模拟散热装置
+ * 功能   : 热敏传感器控制四位数管和电机模拟散热装置
  * 作者   : http://www.keyes-robot.com/ 
 */
 #include "TM1650.h" //导入TM1650库文件
@@ -20,7 +20,7 @@ float K=273.15;  //开氏度 (K°)
 float VR=0;
 
 void setup() {
-  pinMode(A2, INPUT);
+  pinMode(PIN_ANALOG_IN, INPUT);
   DigitalTube.setBrightness();  //设置亮度，0- 7，默认值:2
   DigitalTube.displayOnOFF();   //显示打开或关闭，0=显示关闭，1=显示打开，默认值:1
   for(char b=1;b<5;b++){

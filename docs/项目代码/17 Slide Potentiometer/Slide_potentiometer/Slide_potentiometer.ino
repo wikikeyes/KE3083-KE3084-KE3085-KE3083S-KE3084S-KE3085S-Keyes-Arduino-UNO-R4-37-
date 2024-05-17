@@ -14,6 +14,6 @@ void setup() {
 void loop() {
   val = analogRead(PIN_ANALOG_IN);    //读取传感器的模拟信号
   Serial.print("slide potentiometer:  ");    //打印字符串slide potentiometer:
-  Serial.println(val);    //打印且显示光线强度的模拟信号
+  Serial.println(val);    //打印且显示模拟信号
   delay(200);
 }
