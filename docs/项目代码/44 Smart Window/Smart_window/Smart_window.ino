@@ -15,6 +15,8 @@ void setup(){
   Serial.begin(9600);
   pinMode(PIN_ADC, INPUT);  //设置水滴传感器的引脚为输入模式
   myservo.attach(servoPin);  //选择舵机引脚A1
+  myservo.write(180); //打开窗户
+  delay(500); //延迟500毫秒
 }
 
 void loop(){
