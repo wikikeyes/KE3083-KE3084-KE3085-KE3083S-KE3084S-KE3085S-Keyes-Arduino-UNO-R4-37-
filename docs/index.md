@@ -55,9 +55,9 @@ Keyes Arduino UNO R4 37款传感器学习套装主要包含了我们常用的3
 
 ## 清单
 
-| 序号 | KE3083与KE3084(带主板)/KE3085(不带主板) | KE3083S与KE3084S(带主板)/KE3085S(不带主板)| 规格 | 倍用量 |
+| 序号 | 图片 | 图片| 规格 | 倍用量 |
 | ---- | ------------------------ | ------------------------- | ------------------------------ | ------ |
-| 1 | ![](media/KS5016.png) |![](media/KS5016.png) |UNO R4 WiFi主板/UNO R4 Minima主板(二选一)| 1 |
+| 1 | ![](media/KS5016.png) |![](media/KS5016S.png) |UNO R4 WiFi/Minima主板| 1 |
 | 2 | ![img](media/KE1004.png) | ![img](media/KE1004.png) | 传感器扩展板 | 1 |
 | 3 | ![img](media/KE4074.png) | ![img](media/KE4074S.png) | RGB模块 | 1 |
 | 4 | ![img](media/KE4010.png) | ![img](media/KE4010S.png) | 有源蜂鸣器模块 | 1 |
